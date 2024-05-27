@@ -16,7 +16,7 @@ response = requests.post(
     },
     files={"none": ''},
     data={
-        "prompt": "Impressionist style depiction by Claude Monet of a vibrant, atmospheric series of scenes: a softly blurred morning in a library with dappled light filtering through windows, highlighting the person studying among rows of hazy books; friends sharing a meal outdoors, the table set under shimmering trees with light and shadow playing across their faces and the food; and a cozy coffee session, with the cafe's ambient warmth captured in loose, expressive brushstrokes. The artwork conveys a sense of fulfillment and contentment through Monet’s characteristic focus on light and color, trending on Artstation.",
+        "prompt": "Frozen-inspired animation style of a fulfilling day spent studying and socializing. The scene opens in a grand, ornate library with ice sculptures and shimmering frozen bookshelves, showing a character deeply engrossed in reading under a magical, glowing chandelier made of icicles. Next, the scene shifts to a bustling, snow-themed restaurant where a group of friends dressed in winter attire are gathered around a table, joyfully sharing a hearty meal under twinkling lights. The final scene takes place in a cozy, ice-crafted café, where the friends are wrapped in scarves, enjoying steaming cups of coffee amidst soft snowfall visible through frosty windows. Each setting is rendered with vibrant, icy colors and delicate snowflake details, reflecting the enchanting visual style of the Frozen movies, with a cinematic composition, trending on ArtStation.",
         "output_format": "webp",
     },
 )
@@ -24,7 +24,7 @@ end_time=time.time()
 print(end_time-start_time)
 
 if response.status_code == 200:
-    with open("./davinch.webp", 'wb') as file:
+    with open("./zibri.webp", 'wb') as file:
         file.write(response.content)
 else:
     raise Exception(str(response.json()))

@@ -29,7 +29,7 @@ def t2i(prompt, negative_prompt):
     return response
 
 # 프롬프트에 사용할 제시어
-prompt = "A vibrant and colorful depiction of a student's day, utilizing Andy Warhol's pop art style. The morning begins with a study session in the library, portrayed with bold, block colors and repetitive patterns to emphasize the routine. The narrative progresses to a lunch scene with friends, represented as a series of bright, almost neon-colored images of food and laughing faces, echoing Warhol's fascination with consumer culture. The day concludes with a coffee scene, stylized with high-contrast colors and a commercial graphic design feel, mimicking the iconic visual language of Warhol's works."
+prompt = "A vibrant and colorful depiction of a student's day, utilizing Luis Mendo's pop art style. The morning begins with a study session in the library, portrayed with bold, block colors and repetitive patterns to emphasize the routine. The narrative progresses to a lunch scene with friends, represented as a series of bright, almost neon-colored images of food and laughing faces, echoing Warhol's fascination with consumer culture. The day concludes with a coffee scene, stylized with high-contrast colors and a commercial graphic design feel, mimicking the iconic visual language of Warhol's works."
 negative_prompt = ""
 
 # 이미지 생성하기 REST API 호출

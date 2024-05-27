@@ -17,7 +17,7 @@ artist=input("어떤 화가로 그려줄까?")
 
 
 # 질문 작성하기
-query = question+"라는 내용을 "+artist+"의 화풍으로 그려줘"
+query = question+"라는 내용을 "+artist+"의 화풍으로 그릴 수있게 프롬프트를 생성해줘"
 print(query)
 
 
